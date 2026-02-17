@@ -119,11 +119,11 @@ Este script ejecuta todo el pipeline completo:
 .
 ├── data/
 │   ├── raw/
-│   │   └── train.csv ( disponible en Kaggle https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting )
-[Dataset Store Sales - Kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
+│   │   └── train.csv 
+
 
 │   └── processed/
-│       ├── series_tienda_47.csv ( disponible en https://drive.google.com/drive/folders/1AGcDz5r77UsFA0V-XrCepc-sbd6kGqAP?usp=sharing )
+│       ├── series_tienda_47.csv 
 │       └── series_tienda47_seleccionados.csv 
 ├── notebooks/
 │   └── exploratory_analysis.ipynb
@@ -151,6 +151,19 @@ Este script ejecuta todo el pipeline completo:
     ├── main.py
     └── friedman_nemenyi.py
 ```
+##  Datasets (Fuentes externas)
+
+Debido al tamaño de los archivos, los datasets no se incluyen directamente en el repositorio.  
+Pueden descargarse desde las siguientes fuentes:
+
+- **`train.csv`**  
+  Dataset original de la competición  
+  [Favorita Grocery Sales Forecasting – Kaggle](https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting)
+
+- **`series_tienda_47.csv`**  
+  Subconjunto procesado correspondiente a la tienda 47  
+  [Google Drive – Carpeta de datos](https://drive.google.com/drive/folders/1AGcDz5r77UsFA0V-XrCepc-sbd6kGqAP?usp=sharing)
+
 
 ##  Rangos de Hiperparámetros Optimizables
 
@@ -206,5 +219,6 @@ Todos los algoritmos exploran el learning rate en **escala logarítmica**:
 ## Licencia
 
 Este proyecto es parte de un Trabajo de Fin de Grado (TFG).
+
 
 
