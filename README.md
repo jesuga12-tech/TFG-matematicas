@@ -119,10 +119,10 @@ Este script ejecuta todo el pipeline completo:
 .
 ├── data/
 │   ├── raw/
-│   │   └── train.csv
+│   │   └── train.csv ( disponible en Kaggle https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting )
 │   └── processed/
-│       ├── series_tienda_47.csv
-│       └── series_tienda47_seleccionados.csv
+│       ├── series_tienda_47.csv ( disponible en https://drive.google.com/drive/folders/1AGcDz5r77UsFA0V-XrCepc-sbd6kGqAP?usp=sharing )
+│       └── series_tienda47_seleccionados.csv 
 ├── notebooks/
 │   └── exploratory_analysis.ipynb
 ├── results/
@@ -204,3 +204,4 @@ Todos los algoritmos exploran el learning rate en **escala logarítmica**:
 ## Licencia
 
 Este proyecto es parte de un Trabajo de Fin de Grado (TFG).
+
