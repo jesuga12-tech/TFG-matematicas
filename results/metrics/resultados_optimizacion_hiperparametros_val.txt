@@ -1,0 +1,65 @@
+================================================================================
+RESULTADOS DE OPTIMIZACIÓN DE HIPERPARÁMETROS
+Fecha de inicio: 2026-02-13 19:28:49
+================================================================================
+
+
+================================================================================
+1. OPTIMIZACIÓN BAYESIANA (OPTUNA)
+================================================================================
+
+Optimizacion Bayesiana - cnn
+BO CNN - RMSLE: 0.4623, RMSE: 27.9012, hiperparámetros: {'filters': 64, 'kernel_size': 7, 'dense_units': 32, 'lr': 0.0045396549672759275}, tiempo: 1' 8'', hora: 19:29
+
+Optimizacion Bayesiana - lstm
+BO LSTM - RMSLE: 0.4566, RMSE: 27.6193, hiperparámetros: {'lstm_units': 96, 'dense_units': 32, 'dropout': 0.5, 'lr': 0.004191908925517486}, tiempo: 2' 44'', hora: 19:32
+
+Optimizacion Bayesiana - tcn
+BO TCN - RMSLE: 0.4657, RMSE: 27.4004, hiperparámetros: {'filters': 64, 'kernel_size': 3, 'num_blocks': 4, 'dropout': 0.1, 'dense_units': 32, 'lr': 0.003856208289357982}, tiempo: 2' 59'', hora: 19:35
+
+
+================================================================================
+2. RANDOM SEARCH
+================================================================================
+
+Random Search - cnn
+RS CNN - RMSLE: 0.4630, RMSE: 27.5358, hiperparámetros: {'filters': 16, 'kernel_size': 5, 'dense_units': 32, 'lr': 0.008432526546907425}, tiempo: 1' 6'', hora: 19:36
+
+Random Search - lstm
+RS LSTM - RMSLE: 0.4506, RMSE: 26.4227, hiperparámetros: {'lstm_units': 80, 'dense_units': 32, 'dropout': 0.4, 'lr': 0.0045412741235480066}, tiempo: 2' 48'', hora: 19:39
+
+Random Search - tcn
+RS TCN - RMSLE: 0.4589, RMSE: 26.0939, hiperparámetros: {'filters': 32, 'kernel_size': 5, 'num_blocks': 4, 'dropout': 0.1, 'dense_units': 32, 'lr': 0.0016996615651114731}, tiempo: 2' 9'', hora: 19:41
+
+
+================================================================================
+3. ALGORITMO GENÉTICO (GA)
+================================================================================
+
+Genetic Algorithm - cnn
+GA CNN - RMSLE: 0.4508, RMSE: 26.3469, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.004138040112561016, 'dense_units': 32}, tiempo: 2' 41'', hora: 19:44
+
+Genetic Algorithm - lstm
+GA LSTM - RMSLE: 0.4377, RMSE: 27.0135, hiperparámetros: {'lstm_units': 192, 'dropout': 0.1, 'lr': 0.00957610265694954, 'dense_units': 32}, tiempo: 9' 55'', hora: 19:54
+
+Genetic Algorithm - tcn
+GA TCN - RMSLE: 0.4546, RMSE: 25.4762, hiperparámetros: {'filters': 16, 'kernel_size': 5, 'num_blocks': 2, 'lr': 0.006293763581739025, 'dropout': 0.1, 'dense_units': 32}, tiempo: 2' 27'', hora: 19:56
+
+
+================================================================================
+4. PARTICLE SWARM OPTIMIZATION (PSO)
+================================================================================
+
+Particle Swarm Optimization - cnn
+PSO CNN - RMSLE: 0.4603, RMSE: 26.5791, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.0009070162907043255, 'dense_units': 32}, tiempo: 3' 6'', hora: 19:59
+
+Particle Swarm Optimization - lstm
+PSO LSTM - RMSLE: 0.4403, RMSE: 27.0921, hiperparámetros: {'lstm_units': 160, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 9' 18'', hora: 20:09
+
+Particle Swarm Optimization - tcn
+PSO TCN - RMSLE: 0.4577, RMSE: 26.2542, hiperparámetros: {'filters': 128, 'kernel_size': 3, 'num_blocks': 4, 'lr': 0.0005508553987785628, 'dropout': 0.1, 'dense_units': 32}, tiempo: 16' 8'', hora: 20:25
+
+
+================================================================================
+Fecha de finalización: 2026-02-13 20:25:26
+================================================================================

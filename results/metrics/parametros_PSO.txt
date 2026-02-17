@@ -1,0 +1,274 @@
+================================================================================
+RESULTADOS DE OPTIMIZACIÓN DE HIPERPARÁMETROS
+Fecha de inicio: 2026-02-10 00:30:02
+================================================================================
+
+
+================================================================================
+4. PSO (PARTICLE SWARM OPTIMIZATION)
+================================================================================
+
+
+--------------------------------------------------------------------------------
+BUCLE 1: Variando n_particles (n_iterations=30, c1=1.5, c2=1.5, w=0.7)
+--------------------------------------------------------------------------------
+
+
+--- PSO cnn - n_particles=5 ---
+PSO_part5 CNN - RMSLE: 0.4574, RMSE: 26.2722, hiperparámetros: {'filters': 128, 'kernel_size': 2, 'lr': 0.004657787811065873, 'dense_units': 32}, tiempo: 1' 47'', hora: 00:31
+
+
+--- PSO cnn - n_particles=10 ---
+PSO_part10 CNN - RMSLE: 0.4545, RMSE: 25.8352, hiperparámetros: {'filters': 128, 'kernel_size': 2, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 24'', hora: 00:35
+
+
+--- PSO cnn - n_particles=15 ---
+PSO_part15 CNN - RMSLE: 0.4508, RMSE: 25.8710, hiperparámetros: {'filters': 64, 'kernel_size': 5, 'lr': 0.0071145928560034325, 'dense_units': 32}, tiempo: 4' 53'', hora: 00:40
+
+
+--- PSO cnn - n_particles=20 ---
+PSO_part20 CNN - RMSLE: 0.4489, RMSE: 26.1384, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.0026014468783607924, 'dense_units': 32}, tiempo: 8' 58'', hora: 00:49
+
+
+--- PSO cnn - n_particles=25 ---
+PSO_part25 CNN - RMSLE: 0.4487, RMSE: 25.9680, hiperparámetros: {'filters': 64, 'kernel_size': 7, 'lr': 0.0035969833219532794, 'dense_units': 32}, tiempo: 9' 20'', hora: 00:58
+
+
+--- PSO lstm - n_particles=5 ---
+PSO_part5 LSTM - RMSLE: 0.4399, RMSE: 26.3907, hiperparámetros: {'lstm_units': 64, 'dropout': 0.0, 'lr': 0.008447279952665946, 'dense_units': 32}, tiempo: 2' 13'', hora: 01:00
+
+
+--- PSO lstm - n_particles=10 ---
+PSO_part10 LSTM - RMSLE: 0.4447, RMSE: 26.3787, hiperparámetros: {'lstm_units': 160, 'dropout': 0.4, 'lr': 0.01, 'dense_units': 32}, tiempo: 15' 46'', hora: 01:16
+
+
+--- PSO lstm - n_particles=15 ---
+PSO_part15 LSTM - RMSLE: 0.4343, RMSE: 27.0261, hiperparámetros: {'lstm_units': 128, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 15' 39'', hora: 01:32
+
+
+--- PSO lstm - n_particles=20 ---
+PSO_part20 LSTM - RMSLE: 0.4367, RMSE: 26.3907, hiperparámetros: {'lstm_units': 128, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 24' 25'', hora: 01:56
+
+
+--- PSO lstm - n_particles=25 ---
+PSO_part25 LSTM - RMSLE: 0.4375, RMSE: 28.0172, hiperparámetros: {'lstm_units': 224, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 26' 56'', hora: 02:23
+
+
+--- PSO tcn - n_particles=5 ---
+PSO_part5 TCN - RMSLE: 0.4567, RMSE: 25.8867, hiperparámetros: {'filters': 16, 'kernel_size': 2, 'num_blocks': 5, 'lr': 0.008297788863064514, 'dropout': 0.1, 'dense_units': 32}, tiempo: 2' 54'', hora: 02:26
+
+
+--- PSO tcn - n_particles=10 ---
+PSO_part10 TCN - RMSLE: 0.4581, RMSE: 26.0567, hiperparámetros: {'filters': 128, 'kernel_size': 3, 'num_blocks': 4, 'lr': 0.0019903558074063125, 'dropout': 0.1, 'dense_units': 32}, tiempo: 12' 14'', hora: 02:38
+
+
+--- PSO tcn - n_particles=15 ---
+PSO_part15 TCN - RMSLE: 0.4550, RMSE: 25.7690, hiperparámetros: {'filters': 16, 'kernel_size': 5, 'num_blocks': 5, 'lr': 0.002884933037769484, 'dropout': 0.1, 'dense_units': 32}, tiempo: 13' 25'', hora: 02:52
+
+
+--- PSO tcn - n_particles=20 ---
+PSO_part20 TCN - RMSLE: 0.4574, RMSE: 25.6673, hiperparámetros: {'filters': 64, 'kernel_size': 3, 'num_blocks': 5, 'lr': 0.0012201792561458828, 'dropout': 0.1, 'dense_units': 32}, tiempo: 44' 25'', hora: 03:36
+
+
+--- PSO tcn - n_particles=25 ---
+PSO_part25 TCN - RMSLE: 0.4577, RMSE: 26.9771, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'num_blocks': 5, 'lr': 0.0026949174410396343, 'dropout': 0.1, 'dense_units': 32}, tiempo: 57' 7'', hora: 04:33
+
+
+--------------------------------------------------------------------------------
+BUCLE 2: Variando n_iterations (n_particles=15, c1=1.5, c2=1.5, w=0.7)
+--------------------------------------------------------------------------------
+
+
+--- PSO cnn - n_iterations=5 ---
+PSO_iter5 CNN - RMSLE: 0.4552, RMSE: 26.2264, hiperparámetros: {'filters': 64, 'kernel_size': 5, 'lr': 0.005475268201933448, 'dense_units': 32}, tiempo: 1' 1'', hora: 04:34
+
+
+--- PSO cnn - n_iterations=10 ---
+PSO_iter10 CNN - RMSLE: 0.4500, RMSE: 25.7630, hiperparámetros: {'filters': 64, 'kernel_size': 7, 'lr': 0.0022294464665507823, 'dense_units': 32}, tiempo: 2' 25'', hora: 04:37
+
+
+--- PSO cnn - n_iterations=15 ---
+PSO_iter15 CNN - RMSLE: 0.4502, RMSE: 25.6693, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.004519582799234902, 'dense_units': 32}, tiempo: 5' 14'', hora: 04:42
+
+
+--- PSO cnn - n_iterations=20 ---
+PSO_iter20 CNN - RMSLE: 0.4518, RMSE: 26.5240, hiperparámetros: {'filters': 64, 'kernel_size': 5, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 48'', hora: 04:46
+
+
+--- PSO cnn - n_iterations=30 ---
+PSO_iter30 CNN - RMSLE: 0.4479, RMSE: 25.7309, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.005298218490035425, 'dense_units': 32}, tiempo: 10' 35'', hora: 04:56
+
+
+--- PSO lstm - n_iterations=5 ---
+PSO_iter5 LSTM - RMSLE: 0.4463, RMSE: 26.5972, hiperparámetros: {'lstm_units': 128, 'dropout': 0.1, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 32'', hora: 05:00
+
+
+--- PSO lstm - n_iterations=10 ---
+PSO_iter10 LSTM - RMSLE: 0.4378, RMSE: 27.2120, hiperparámetros: {'lstm_units': 64, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 4' 16'', hora: 05:04
+
+
+--- PSO lstm - n_iterations=15 ---
+PSO_iter15 LSTM - RMSLE: 0.4529, RMSE: 25.6348, hiperparámetros: {'lstm_units': 256, 'dropout': 0.2, 'lr': 0.0006867610082261883, 'dense_units': 32}, tiempo: 14' 36'', hora: 05:19
+
+
+--- PSO lstm - n_iterations=20 ---
+PSO_iter20 LSTM - RMSLE: 0.4297, RMSE: 29.0298, hiperparámetros: {'lstm_units': 224, 'dropout': 0.0, 'lr': 0.008579520209249448, 'dense_units': 32}, tiempo: 17' 57'', hora: 05:37
+
+
+--- PSO lstm - n_iterations=30 ---
+PSO_iter30 LSTM - RMSLE: 0.4382, RMSE: 27.1315, hiperparámetros: {'lstm_units': 128, 'dropout': 0.3, 'lr': 0.01, 'dense_units': 32}, tiempo: 15' 30'', hora: 05:52
+
+
+--- PSO tcn - n_iterations=5 ---
+PSO_iter5 TCN - RMSLE: 0.4622, RMSE: 26.3457, hiperparámetros: {'filters': 64, 'kernel_size': 3, 'num_blocks': 4, 'lr': 0.0010035218059771035, 'dropout': 0.1, 'dense_units': 32}, tiempo: 5' 33'', hora: 05:58
+
+
+--- PSO tcn - n_iterations=10 ---
+PSO_iter10 TCN - RMSLE: 0.4590, RMSE: 25.5356, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'num_blocks': 4, 'lr': 0.0004251576549437779, 'dropout': 0.1, 'dense_units': 32}, tiempo: 15' 50'', hora: 06:13
+
+
+--- PSO tcn - n_iterations=15 ---
+PSO_iter15 TCN - RMSLE: 0.4558, RMSE: 25.6961, hiperparámetros: {'filters': 64, 'kernel_size': 3, 'num_blocks': 3, 'lr': 0.001785892039634809, 'dropout': 0.1, 'dense_units': 32}, tiempo: 11' 49'', hora: 06:25
+
+
+--- PSO tcn - n_iterations=20 ---
+PSO_iter20 TCN - RMSLE: 0.4579, RMSE: 26.0149, hiperparámetros: {'filters': 128, 'kernel_size': 3, 'num_blocks': 3, 'lr': 0.0015330691036939761, 'dropout': 0.1, 'dense_units': 32}, tiempo: 21' 56'', hora: 06:47
+
+
+--- PSO tcn - n_iterations=30 ---
+PSO_iter30 TCN - RMSLE: 0.4556, RMSE: 25.7459, hiperparámetros: {'filters': 64, 'kernel_size': 2, 'num_blocks': 5, 'lr': 0.00197259248951899, 'dropout': 0.1, 'dense_units': 32}, tiempo: 41' 12'', hora: 07:28
+
+
+--------------------------------------------------------------------------------
+BUCLE 3: Variando c1 y c2 (n_particles=15, n_iterations=10, w=0.7)
+--------------------------------------------------------------------------------
+
+
+--- PSO cnn - c1=1.2, c2=1.2 ---
+PSO_c11.2_c21.2 CNN - RMSLE: 0.4518, RMSE: 26.3308, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 5'', hora: 07:32
+
+
+--- PSO cnn - c1=1.5, c2=1.5 ---
+PSO_c11.5_c21.5 CNN - RMSLE: 0.4508, RMSE: 25.3943, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'lr': 0.003687081057580983, 'dense_units': 32}, tiempo: 2' 42'', hora: 07:34
+
+
+--- PSO cnn - c1=2.0, c2=2.0 ---
+PSO_c12.0_c22.0 CNN - RMSLE: 0.4529, RMSE: 26.3119, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 8'', hora: 07:37
+
+
+--- PSO cnn - c1=1.5, c2=2.0 ---
+PSO_c11.5_c22.0 CNN - RMSLE: 0.4529, RMSE: 26.5140, hiperparámetros: {'filters': 128, 'kernel_size': 5, 'lr': 0.01, 'dense_units': 32}, tiempo: 2' 41'', hora: 07:40
+
+
+--- PSO cnn - c1=2.0, c2=1.5 ---
+PSO_c12.0_c21.5 CNN - RMSLE: 0.4543, RMSE: 25.9345, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.01, 'dense_units': 32}, tiempo: 2' 38'', hora: 07:43
+
+
+--- PSO lstm - c1=1.2, c2=1.2 ---
+PSO_c11.2_c21.2 LSTM - RMSLE: 0.4391, RMSE: 26.9230, hiperparámetros: {'lstm_units': 224, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 63' 23'', hora: 08:46
+
+
+--- PSO lstm - c1=1.5, c2=1.5 ---
+PSO_c11.5_c21.5 LSTM - RMSLE: 0.4334, RMSE: 27.0217, hiperparámetros: {'lstm_units': 128, 'dropout': 0.0, 'lr': 0.009449901391755151, 'dense_units': 32}, tiempo: 7' 17'', hora: 08:53
+
+
+--- PSO lstm - c1=2.0, c2=2.0 ---
+PSO_c12.0_c22.0 LSTM - RMSLE: 0.4458, RMSE: 27.4146, hiperparámetros: {'lstm_units': 224, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 10' 29'', hora: 09:04
+
+
+--- PSO lstm - c1=1.5, c2=2.0 ---
+PSO_c11.5_c22.0 LSTM - RMSLE: 0.4346, RMSE: 26.8371, hiperparámetros: {'lstm_units': 160, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 9' 16'', hora: 09:13
+
+
+--- PSO lstm - c1=2.0, c2=1.5 ---
+PSO_c12.0_c21.5 LSTM - RMSLE: 0.4517, RMSE: 26.1728, hiperparámetros: {'lstm_units': 224, 'dropout': 0.3, 'lr': 0.00237297478925893, 'dense_units': 32}, tiempo: 9' 59'', hora: 09:23
+
+
+--- PSO tcn - c1=1.2, c2=1.2 ---
+PSO_c11.2_c21.2 TCN - RMSLE: 0.4607, RMSE: 27.1636, hiperparámetros: {'filters': 128, 'kernel_size': 2, 'num_blocks': 4, 'lr': 0.0017635363413586178, 'dropout': 0.1, 'dense_units': 32}, tiempo: 27' 28'', hora: 09:51
+
+
+--- PSO tcn - c1=1.5, c2=1.5 ---
+PSO_c11.5_c21.5 TCN - RMSLE: 0.4583, RMSE: 26.1923, hiperparámetros: {'filters': 64, 'kernel_size': 3, 'num_blocks': 4, 'lr': 0.004017666209509124, 'dropout': 0.1, 'dense_units': 32}, tiempo: 18' 11'', hora: 10:09
+
+
+--- PSO tcn - c1=2.0, c2=2.0 ---
+PSO_c12.0_c22.0 TCN - RMSLE: 0.4601, RMSE: 27.0871, hiperparámetros: {'filters': 16, 'kernel_size': 3, 'num_blocks': 5, 'lr': 0.01, 'dropout': 0.1, 'dense_units': 32}, tiempo: 9' 58'', hora: 10:19
+
+
+--- PSO tcn - c1=1.5, c2=2.0 ---
+PSO_c11.5_c22.0 TCN - RMSLE: 0.4576, RMSE: 26.2299, hiperparámetros: {'filters': 128, 'kernel_size': 2, 'num_blocks': 4, 'lr': 0.0009693661964525864, 'dropout': 0.1, 'dense_units': 32}, tiempo: 9' 42'', hora: 10:28
+
+
+--- PSO tcn - c1=2.0, c2=1.5 ---
+PSO_c12.0_c21.5 TCN - RMSLE: 0.4583, RMSE: 25.6560, hiperparámetros: {'filters': 64, 'kernel_size': 2, 'num_blocks': 4, 'lr': 0.0021914553451819743, 'dropout': 0.1, 'dense_units': 32}, tiempo: 11' 59'', hora: 10:40
+
+
+--------------------------------------------------------------------------------
+BUCLE 4: Variando w (n_particles=15, n_iterations=10, c1=1.5, c2=1.5)
+--------------------------------------------------------------------------------
+
+
+--- PSO cnn - w=0.4 ---
+PSO_w0.4 CNN - RMSLE: 0.4496, RMSE: 26.0754, hiperparámetros: {'filters': 64, 'kernel_size': 7, 'lr': 0.0051388140055369964, 'dense_units': 32}, tiempo: 4' 40'', hora: 10:45
+
+
+--- PSO cnn - w=0.6 ---
+PSO_w0.6 CNN - RMSLE: 0.4613, RMSE: 26.2594, hiperparámetros: {'filters': 64, 'kernel_size': 7, 'lr': 0.0056780997368676206, 'dense_units': 32}, tiempo: 3' 37'', hora: 10:49
+
+
+--- PSO cnn - w=0.7 ---
+PSO_w0.7 CNN - RMSLE: 0.4504, RMSE: 26.3148, hiperparámetros: {'filters': 32, 'kernel_size': 7, 'lr': 0.00357147727392234, 'dense_units': 32}, tiempo: 4' 53'', hora: 10:54
+
+
+--- PSO cnn - w=0.8 ---
+PSO_w0.8 CNN - RMSLE: 0.4519, RMSE: 26.7794, hiperparámetros: {'filters': 32, 'kernel_size': 7, 'lr': 0.00417486813869092, 'dense_units': 32}, tiempo: 4' 25'', hora: 10:58
+
+
+--- PSO cnn - w=0.9 ---
+PSO_w0.9 CNN - RMSLE: 0.4525, RMSE: 26.4288, hiperparámetros: {'filters': 128, 'kernel_size': 7, 'lr': 0.01, 'dense_units': 32}, tiempo: 3' 11'', hora: 11:01
+
+
+--- PSO lstm - w=0.4 ---
+PSO_w0.4 LSTM - RMSLE: 0.4522, RMSE: 25.9762, hiperparámetros: {'lstm_units': 128, 'dropout': 0.2, 'lr': 0.004530326571076292, 'dense_units': 32}, tiempo: 12' 50'', hora: 11:14
+
+
+--- PSO lstm - w=0.6 ---
+PSO_w0.6 LSTM - RMSLE: 0.4435, RMSE: 26.1657, hiperparámetros: {'lstm_units': 256, 'dropout': 0.0, 'lr': 0.01, 'dense_units': 32}, tiempo: 7' 17'', hora: 11:21
+
+
+--- PSO lstm - w=0.7 ---
+PSO_w0.7 LSTM - RMSLE: 0.4403, RMSE: 25.9895, hiperparámetros: {'lstm_units': 128, 'dropout': 0.3, 'lr': 0.01, 'dense_units': 32}, tiempo: 4' 50'', hora: 11:26
+
+
+--- PSO lstm - w=0.8 ---
+PSO_w0.8 LSTM - RMSLE: 0.4432, RMSE: 26.3980, hiperparámetros: {'lstm_units': 192, 'dropout': 0.3, 'lr': 0.00809930677439448, 'dense_units': 32}, tiempo: 13' 30'', hora: 11:40
+
+
+--- PSO lstm - w=0.9 ---
+PSO_w0.9 LSTM - RMSLE: 0.4476, RMSE: 26.6727, hiperparámetros: {'lstm_units': 224, 'dropout': 0.4, 'lr': 0.01, 'dense_units': 32}, tiempo: 6' 55'', hora: 11:47
+
+
+--- PSO tcn - w=0.4 ---
+PSO_w0.4 TCN - RMSLE: 0.4577, RMSE: 25.2027, hiperparámetros: {'filters': 16, 'kernel_size': 2, 'num_blocks': 4, 'lr': 0.01, 'dropout': 0.1, 'dense_units': 32}, tiempo: 4' 24'', hora: 11:51
+
+
+--- PSO tcn - w=0.6 ---
+PSO_w0.6 TCN - RMSLE: 0.4588, RMSE: 25.6364, hiperparámetros: {'filters': 32, 'kernel_size': 3, 'num_blocks': 3, 'lr': 0.002062217043398989, 'dropout': 0.1, 'dense_units': 32}, tiempo: 4' 27'', hora: 11:56
+
+
+--- PSO tcn - w=0.7 ---
+PSO_w0.7 TCN - RMSLE: 0.4554, RMSE: 25.7133, hiperparámetros: {'filters': 16, 'kernel_size': 2, 'num_blocks': 4, 'lr': 0.01, 'dropout': 0.1, 'dense_units': 32}, tiempo: 6' 30'', hora: 12:02
+
+
+--- PSO tcn - w=0.8 ---
+PSO_w0.8 TCN - RMSLE: 0.4577, RMSE: 25.9709, hiperparámetros: {'filters': 128, 'kernel_size': 3, 'num_blocks': 5, 'lr': 0.0004072653450620609, 'dropout': 0.1, 'dense_units': 32}, tiempo: 14' 19'', hora: 12:16
+
+
+--- PSO tcn - w=0.9 ---
+PSO_w0.9 TCN - RMSLE: 0.4613, RMSE: 26.2638, hiperparámetros: {'filters': 64, 'kernel_size': 5, 'num_blocks': 5, 'lr': 0.002994649622088022, 'dropout': 0.1, 'dense_units': 32}, tiempo: 10' 29'', hora: 12:27
+
+
+================================================================================
+Fecha de finalización: 2026-02-10 12:27:22
+================================================================================
